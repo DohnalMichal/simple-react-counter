@@ -1,6 +1,8 @@
 $button-color: magenta;
 
-html, body, * {
+html,
+body,
+* {
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -36,4 +38,7 @@ button {
 .controls {
   display: flex;
   justify-content: center;
+  button {
+    cursor: pointer;
+  }
 }
